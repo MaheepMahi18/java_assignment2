@@ -1,0 +1,9 @@
+package StringFunctions;
+
+public class Endswith {
+    public static void endswith(){
+        String s1="java by javatpoint";
+        System.out.println(s1.endsWith("t"));
+        System.out.println(s1.endsWith("point"));
+    }
+}
